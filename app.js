@@ -27,3 +27,5 @@ app.use((err, req, res, next) => {
 });
 
 module.exports = app;
+
+// YER7MrWLoW1Q7L4L   - mongoDB password
