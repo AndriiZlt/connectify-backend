@@ -2,6 +2,7 @@ const { Contact } = require("../../models/contact");
 const { HttpError } = require("../../helpers");
 
 const getById = async (req, res) => {
+  console.log("get by id");
   const { contactId } = req.params;
   const result = await Contact.findById(contactId);
 
